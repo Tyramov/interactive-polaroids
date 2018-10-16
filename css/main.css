@@ -23,7 +23,6 @@ html {
   top: 150px;
   right: 420px;
   transform: rotate(5deg);
-  z-index: 1;
 }
 
 .polaroid:nth-child(3) {
@@ -34,7 +33,7 @@ html {
 
 .polaroid:hover {
   transform: rotate(0deg);
-  z-index: 2;
+  z-index: 1;
   box-shadow: 0 0 30px 5px #000;
 }
 
